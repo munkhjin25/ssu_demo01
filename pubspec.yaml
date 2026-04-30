@@ -1,0 +1,42 @@
+name: do_line
+description: "DO Line - Deep One Line. 하루 한 줄, 깊게 다짐하다."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 구글 폰트 (Space Grotesk)
+  google_fonts: ^6.2.1
+
+  # 로컬 데이터 저장 (다짐 기록 보존)
+  shared_preferences: ^2.2.3
+
+  # 기본 아이콘
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  # 앱 아이콘 자동 생성 (7주차 실습)
+  flutter_launcher_icons: ^0.13.1
+
+# 앱 아이콘 설정 (flutter pub run flutter_launcher_icons 실행)
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#0F0F1A"
+  adaptive_icon_foreground: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/

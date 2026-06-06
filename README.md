@@ -1,24 +1,31 @@
-# ssu_demo01
-Name : DO LINE 
-DO Line은 사용자가 매일 자신의 다짐(Pledge)을 기록하고, 이를 시각적으로 확인하며 꾸준한 습관을 형성할 수 있도록 돕는 생산성 앱입니다. 사용자의 연속 달성 기록(Streak)을 계산하여 동기를 부여합니다.
+Focusly ⚡
 
-주요 기능 설명
-다짐 기록(Pledge): 매일 새로운 다짐을 입력하고 저장할 수 있습니다.
+Focusly is a premium, high-fidelity focus architecture engine designed to streamline deep work workflows. Built with Flutter and styled around a commanding midnight navy aesthetic, it pairs task execution pipelines with interactive telemetry tracking and real-time focus feedback.
+Core Architecture Systems
 
-히스토리 관리: 이전에 작성했던 다짐들을 날짜별로 리스트에서 확인할 수 있습니다.
+* **System Dashboard Hub:** A high-level telemetry canvas projecting real-time analytics, total focus windows logged, and immediate task clearing velocity tracking.
+* **The Task Matrix:** An interactive task tracking pipeline utilizing an adaptive category matrix filter (`All`, `Academic`, `Coding`, `Research`, `Design`) for deep workflow segmenting.
+* **Timer Execution Engine:** A fully configurable Pomodoro block timer featuring quick-swap duration parameters ($25$, $45$, or $60$ minute segments) and standard session lifecycle management.
+* **Volt Focus Mascot Module:** An interactive terminal mascot integrated natively into the timer pipeline that adapts expression profiles based on system run states (`🤖⚡ (*_*) Monitoring` vs. `🤖💤 (-_-) Resting`).
+* **State Matrix Configuration:** Granular app management toggles handling dynamic Material 3 Dark/Light themes, default focus window thresholds, and strict deep work lockouts.
+ Design Language & UI Spec
 
-통계 대시보드(Stats): 현재 스트릭, 최장 스트릭, 총 완료 횟수 등을 한눈에 보여줍니다.
+Focusly implements an engineered UI schema built explicitly for low light fatigue and focused visual clarity:
 
-달성률 시각화: 전체 다짐 대비 완료율을 프로그레스 바(Progress Bar) 형태로 제공합니다.
+| Element | Hex Code | Visual Layer |
+| :--- | :--- | :--- |
+| **Scaffold Canvas** | `#0B0F19` | Deep Midnight Canvas Base |
+| **Surface Contrast** | `#171E2E` | Slate Navy Structural Cards |
+| **Primary Core Accent**| `#8B5CF6` | Vibrant Cyber Purple |
+| **Secondary Accent** | `#3B82F6` | Electric Blue Accent Glow |
 
-본인이 구현한 부분
-앱의 전체적인 내비게이션 구조(Pledge 탭과 Stats 탭의 분리)를 설계했습니다.
+The app entry flow incorporates a premium **Geometric Tech Prism Icon Layer** that replaces generic vector assets with overlapping geometric glass paths and floating translucent core focal lenses to anchor an official, polished brand appearance right from the splash layout.
 
-사용자 인터페이스(UI)의 다크 모드 테마와 레이아웃 디자인을 직접 구성했습니다.
+nstallation & Execution Guide
 
-데이터 구조를 설계하여 스트릭 계산 로직을 구현했습니다.
+Ensure your engineering environment has the Flutter SDK deployed properly before compiling.
 
-AI 활용 여부 및 활용 범위 (바이브코딩)
-활용 여부: 예 (CLAUDE 활용)
-
-활용 범위: 플러터 위젯의 세부 스타일링(CSS 스타일의 디자인 구현) 및 통계 화면의 프로그레스 바 로직 최적화에 AI를 활용하였습니다.
+1. **Clone the repository core asset:**
+   ```bash
+   git clone [https://github.com/YOUR_GITHUB_USERNAME/ssu_demo01.git](https://github.com/YOUR_GITHUB_USERNAME/ssu_demo01.git)
+   cd ssu_demo01
